@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하의(PANTS) 핏 종류</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #FFFFFF;
+            color: #000000;
+        }
+
+        .navbar {
+            background-color: #000000 !important;
+        }
+        .navbar-brand, .nav-link, .search-icon {
+            color: #FFFFFF !important;
+            font-weight: 700;
+        }
+        .nav-item:nth-child(2) .nav-link {
+            color: #0000AA !important;
+        }
+        
+
+        .main-logo {
+            font-size: 1.5rem;
+            text-transform: uppercase;
+        }
+
+        .detail-menu {
+            padding: 100px 0px 100px 0px;
+            background-color: #ffffff;
+            border-bottom: 1px solid #dee2e6;
+            h1 { line-height: 0.7; }
+        }
+        .detail-menu .menu-item {
+            text-align: center;
+            cursor: pointer;
+            padding: 10px;
+            transition: background-color 0.2s;
+            border-radius: 5px;
+        }
+        .detail-menu .menu-item:hover {
+            background-color: #e9ecef;
+        }
+        .menu-photo {
+            background-color: #000000; 
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 0.9rem;
+            font-weight: 700;
+        }
+
+        .detail-section {
+            padding: 60px 0;
+            border-bottom: 1px dashed #ced4da;
+            line-height: 1;
+        }
+
+        .detail-photo {
+            background-color: #e9ecef; 
+            height: 400px;
+            width: 400px;
+            margin-left: 50px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 500;
+            border: 1px solid #dee2e6;
+        }
+        
+        .description-box {
+            background-color: #ffffff;
+            margin-top: 25px;
+        }
+
+        .bottom-slogan {
+            text-align: center;
+            padding: 30px 0px 20px 0px;
+            background-color: #f8f8f8;
+            p { font-size: 13px; line-height: 0.3; }
+        }
+
+            .top-btn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #0000AA;
+            color: white;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            text-decoration: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            z-index: 1000;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+
+
+
+
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top border-bottom border-secondary">
+        <div class="container">
+            <a class="navbar-brand main-logo" href="index.html">TOP-FIT</a>
+            
+            <div class="collapse navbar-collapse" id="navbarNav"> 
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="top.html">상의(TOP)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pants.html">하의(PANTS)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="item.html">추천제품</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT</a>
+                    </li>
+                </ul>
+                
+                <div class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="키워드 입력" aria-label="Search" style="width: 150px;">
+                    <button class="btn btn-outline-light search-icon" type="submit">검색</button>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row detail-menu">
+            <h1 class="text-center mb-4 fw-bold">하의 핏 종류</h1>
+            <p class="text-center mb-2 text-muted">Types of pants fits</p>
+
+            <div class="row mb-3">
+                <div class="col-3">
+                    <a href="#slim" class="text-decoration-none text-dark d-block menu-item">
+                        <div class="menu-photo">
+                            <img src="images/SLIM.jpg" alt="슬림핏 바지 사진" width="300" height="300">
+                        </div>
+                        <p class="mb-0 fw-bold">슬림핏</p>
+                    </a>
+                </div>
+
+                <div class="col-3">
+                    <a href="#wide" class="text-decoration-none text-dark d-block menu-item">
+                        <div class="menu-photo">
+                            <img src="images/WIDE.jpg" alt="와이드핏 바지 사진" width="300" height="300">
+                        </div>
+                        <p class="mb-0 fw-bold">와이드핏</p>
+                    </a>
+                </div>
+
+                <div class="col-3">
+                    <a href="#semi-wide" class="text-decoration-none text-dark d-block menu-item">
+                        <div class="menu-photo">
+                            <img src="images/SEMIWIDE.jpg" alt="세미 와이드핏 바지 사진" width="300" height="300">
+                        </div>
+                        <p class="mb-0 fw-bold">세미 와이드핏</p>
+                    </a>
+                </div>
+
+                <div class="col-3">
+                    <a href="#tapered" class="text-decoration-none text-dark d-block menu-item">
+                        <div class="menu-photo">
+                            <img src="images/TAPERED.jpg" alt="테이퍼드핏 바지 사진" width="300" height="300">
+                        </div>
+                        <p class="mb-0 fw-bold">테이퍼드핏</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <a href="#jogger" class="text-decoration-none text-dark d-block menu-item">
+                        <div class="menu-photo">
+                            <img src="images/JOGGER.jpg" alt="조거핏 바지 사진" width="300" height="300">
+                        </div>
+                        <p class="mb-0 fw-bold">조거핏</p>
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="#straight" class="text-decoration-none text-dark d-block menu-item">
+                        <div class="menu-photo">
+                            <img src="images/STRAIGHT.jpg" alt="스트레이트핏 바지 사진" width="300" height="300">
+                        </div>
+                        <p class="mb-0 fw-bold">스트레이트핏</p>
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="#baggy" class="text-decoration-none text-dark d-block menu-item">
+                        <div class="menu-photo">
+                            <img src="images/BAGGY.jpg" alt="배기핏 바지 사진" width="300" height="300">
+                        </div>
+                        <p class="mb-0 fw-bold">배기핏</p>
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="#two-way" class="text-decoration-none text-dark d-block menu-item">
+                        <div class="menu-photo">
+                            <img src="images/2WAY.jpg" alt="2WAY 바지 사진" width="300" height="300">
+                        </div>
+                        <p class="mb-0 fw-bold">2WAY</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <section id="slim" class="detail-section">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <div class="detail-photo position-relative">
+                        <img src="images/SLIM.jpg" alt="슬림핏 바지 사진" height="400" width="400">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <h3><b>슬림 (SLIM)</b></h3>
+                    <div class="description-box">
+                        <p>허리부터 허벅지, 종아리까지 전체적으로 몸에 붙으면서 슬림하게 떨어지는 핏</p>
+                        <p>&nbsp; </p>
+                        <p>다리가 가늘거나 체형을 드러내고 싶을 때 좋습니다.</p>
+                        <p>깔끔하고 날렵한 인상을 줍니다.</p>
+                        <p>&nbsp; </p>
+                        <p><strong>추천 체형 :</strong> 마른 체형, 전체적으로 날씬한 체형</p>
+                        <p>몸의 실루엣을 그대로 살려주어 왜소해 보이지 않고 깔끔하고 날렵한 이미지를 줍니다.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         
+        <section id="wide" class="detail-section">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <div class="detail-photo position-relative">
+                        <img src="images/WIDE.jpg" alt="와이드핏 바지 사진" height="400" width="400">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <h3><b>와이드 (WIDE)</b></h3>
+                    <div class="description-box">
+                        <p>허리부터 밑단까지 전체적으로 통이 넓고 넉넉한 핏</p>
+                        <p>&nbsp; </p>
+                        <p>활동성이 좋고 편안하며, 트렌디하고 힙한 스타일 연출에 좋습니다.</p>
+                        <p>다리가 휘거나 종아리가 굵은 체형 커버에 탁월합니다.</p>
+                        <p>&nbsp; </p>
+                        <p><strong>추천 체형 :</strong> 하체 전체가 발달한 체형, 다리 라인이 곧지 않은 체형</p>
+                        <p>통이 넓어 다리 라인을 완전히 감춰주어 체형 보완 효과가 가장 뛰어납니다.</p>
+                        <p>다리가 휘었거나 종아리가 굵은 경우 특히 추천합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="semi-wide" class="detail-section">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <div class="detail-photo position-relative">
+                        <img src="images/SEMIWIDE.jpg" alt="세미 와이드핏 바지 사진" height="400" width="400">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <h3><b>세미 와이드 (SEMI-WIDE)</b></h3>
+                    <div class="description-box">
+                        <p>스트레이트와 와이드의 중간 정도 실루엣</p>
+                        <p>와이드 핏보다는 덜하지만, 일반적인 핏보다 전체적으로 여유가 있고 밑단 폭도 넓은 편입니다.</p>
+                        <p>&nbsp; </p>
+                        <p>편안하면서도 트렌디한 느낌을 주며, 부담스럽지 않게 와이드 핏을 시도하고 싶을 때 좋습니다.</p>
+                        <p>&nbsp; </p>
+                        <p><strong>추천 체형 :</strong> 평균 체형, 트렌디함을 원하는 사람</p>
+                        <p>와이드 핏이 부담스럽지만, 다리 라인을 가리고 싶을 때 좋습니다.</p>
+                        <p>다리통의 여유로 체형 보완 효과가 있으며, 와이드 핏보다는 단정합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="tapered" class="detail-section">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <div class="detail-photo position-relative">
+                        <img src="images/TAPERED.jpg" alt="테이퍼드핏 바지 사진" height="400" width="400">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <h3><b>테이퍼드 (TAPERED)</b></h3>
+                    <div class="description-box">
+                        <p>허벅지는 여유가 있으나, 무릎 아래부터 밑단으로 갈수록 점점 좁아지는 핏</p>
+                        <p>&nbsp; </p>
+                        <p>발목 부분이 슬림해져 깔끔하고 댄디한 느낌을 줍니다.</p>
+                        <p>허벅지가 두꺼운 체형을 보완하는 데 효과적입니다.</p>
+                        <p>&nbsp; </p>
+                        <p><strong>추천 체형 :</strong> 하체에 근육/살이 많은 체형 (특히 허벅지 발달형)</p>
+                        <p>허벅지에 여유를 주어 편안하게 활동할 수 있습니다.</p>
+                        <p>무릎 아래부터 좁아지는 디자인 덕분에 발목이 상대적으로 얇아 보여 전체적인 밸런스가 좋습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="jogger" class="detail-section">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <div class="detail-photo position-relative">
+                        <img src="images/JOGGER.jpg" alt="조거핏 바지 사진" height="400" width="400">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <h3><b>조거 (JOGGER)</b></h3>
+                    <div class="description-box">
+                        <p>허리와 밑단에 밴딩 처리를 하거나 끈으로 조여서 발목을 잡아주는 형태의 바지</p>
+                        <p>&nbsp; </p>
+                        <p>핏 자체는 테이퍼드나 슬림인 경우가 많습니다.</p>
+                        <p>운동복에서 유래했으며, 캐주얼하고 스포티한 룩에 적합합니다.</p>
+                        <p>발목이 드러나 경쾌해 보입니다.</p>
+                        <p>&nbsp; </p>
+                        <p><strong>추천 체형 :</strong> 활동적인 체형, 스포티한 룩을 선호하는 체형</p>
+                        <p>스포티한 룩 연출에 최적화되어 있습니다.</p>
+                        <p>종아리가 굵다면 밑단의 밴딩이 오히려 부각될 수 있어 주의가 필요합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="straight" class="detail-section">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <div class="detail-photo position-relative">
+                        <img src="images/STRAIGHT.jpg" alt="스트레이트핏 바지 사진" height="400" width="400">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <h3><b>스트레이트 (STRAIGHT)</b></h3>
+                    <div class="description-box">
+                        <p>허벅지부터 밑단까지 거의 일직선으로 떨어지는 핏</p>
+                        <p>레귤러(Regular) 핏이라고도 불립니다.</p>
+                        <p>&nbsp; </p>
+                        <p>가장 기본적이고 클래식한 핏으로, 유행을 타지 않고 누구나 무난하게 잘 어울립니다.</p>
+                        <p>포멀한 룩부터 캐주얼한 룩까지 다양하게 활용 가능합니다.</p>
+                        <p>&nbsp; </p>
+                        <p><strong>추천 체형 :</strong> 모든 체형 (특히 평균 체형)</p>
+                        <p>허벅지부터 밑단까지 일자로 떨어져 체형의 단점을 크게 드러내지 않습니다.</p>
+                        <p>가장 균형 잡힌 기본 핏으로 누구나 무난하게 잘 어울립니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="baggy" class="detail-section">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <div class="detail-photo position-relative">
+                        <img src="images/BAGGY.jpg" alt="배기핏 바지 사진" height="400" width="400">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <h3><b>배기 (BAGGY)</b></h3>
+                    <div class="description-box">
+                        <p>허리나 엉덩이, 허벅지 부분이 매우 넉넉하고 풍성하며, 밑단으로 갈수록 좁아지거나 루즈하게 떨어지는 핏</p>
+                        <p>&nbsp; </p>
+                        <p>힙합이나 스트리트 패션에서 자주 보이는 핏으로, 활동적인 느낌과 개성을 강조합니다.</p>
+                        <p>&nbsp; </p>
+                        <p><strong>추천 체형 :</strong> 개성을 강조하고 싶은 체형, 마른 체형 (힙합/스트리트 스타일)</p>
+                        <p>허리와 힙 부분이 매우 넉넉하여 마른 체형도 풍성한 볼륨감을 줄 수 있습니다.</p>
+                        <p>다리 라인보다는 스타일과 무드를 강조하는 핏입니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                
+        
+        <section id="two-way" class="detail-section">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <div class="detail-photo position-relative">
+                        <img src="images/2WAY.jpg" alt="2WAY 바지 사진" height="400" width="400">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <h3><b>2WAY</b></h3>
+                    <div class="description-box">
+                        <p>하나의 바지로 스트레이트 핏과 조거 핏 두 가지 스타일을 연출할 수 있는 디자인</p>
+                        <p>&nbsp; </p>
+                        <p>보통 밑단에 스트링(조임 끈)이나 단추, 지퍼 등이 있습니다.</p>
+                        <p>이를 활용하여 밑단을 조이면 조거 핏이 되고, 풀면 스트레이트 핏이 됩니다.</p>
+                        <p>상황에 따라 포멀함과 캐주얼함을 오가며 스타일링 변화를 줄 수 있는 실용적입니다.</p>
+                        <p>&nbsp; </p>
+                        <p><strong>추천 체형 :</strong> 다양한 스타일을 시도하고 싶은 체형</p>
+                        <p>스트레이트 핏과 조거 핏의 장점을 모두 누릴 수 있어 활용도와 실용성을 최우선으로 생각하는 분들에게 좋습니다.</p>
+                        <img src="images/2WAYdetail1.jpg" width="100" height="100" style="border: #ced4da;"> <img src="images/2WAYdetail2.jpg" width="100" height="100" style="border: #ced4da;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        
+        <div class="bottom-slogan">
+            <p class="text-muted">당신의 쇼핑을 더욱 편안하게</p>
+            <p class="text-muted">Comfort your shopping, Comfort your style</p>
+        </div>
+        
+    </div>
+
+    <a href="#top" class="top-btn" onclick="window.scrollTo(0, 0); return false;">TOP</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

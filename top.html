@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상의(TOP) 네크라인 종류</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #FFFFFF;
+            color: #000000;
+        }
+
+        .navbar {
+            background-color: #000000 !important;
+        }
+        .navbar-brand, .nav-link, .search-icon {
+            color: #FFFFFF !important;
+            font-weight: 700;
+        }
+        .nav-item:nth-child(1) .nav-link {
+            color: #0000AA !important;
+        }
+        
+
+        .main-logo {
+            font-size: 1.5rem;
+            text-transform: uppercase;
+        }
+
+        .detail-menu {
+            padding: 100px 0px 100px 0px;
+            background-color: #ffffff;
+            border-bottom: 1px solid #dee2e6;
+            h1 { line-height: 0.7; }
+        }
+        .detail-menu .menu-item {
+            text-align: center;
+            cursor: pointer;
+            padding: 10px;
+            transition: background-color 0.2s;
+            border-radius: 5px;
+        }
+        .detail-menu .menu-item:hover {
+            background-color: #e9ecef;
+        }
+        .menu-photo {
+            background-color: #000000; 
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 0.9rem;
+            font-weight: 700;
+        }
+
+        .detail-section {
+            padding: 60px 0;
+            border-bottom: 1px dashed #ced4da;
+            line-height: 1;
+        }
+
+        .detail-photo {
+            background-color: #e9ecef; 
+            height: 400px;
+            width: 400px;
+            margin-left: 50px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 500;
+            border: 1px solid #dee2e6;
+        }
+        
+        .description-box {
+            background-color: #ffffff;
+            margin-top: 25px;
+        }
+
+        .bottom-slogan {
+            text-align: center;
+            padding: 30px 0px 20px 0px;
+            background-color: #f8f8f8;
+            p { font-size: 13px; line-height: 0.3; }
+        }
+
+        .top-btn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #0000AA;
+            color: white;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            text-decoration: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            z-index: 1000;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top border-bottom border-secondary">
+        <div class="container">
+            <a class="navbar-brand main-logo" href="index.html">TOP-FIT</a>
+            
+            <div class="collapse navbar-collapse" id="navbarNav"> 
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="top.html">상의(TOP)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pants.html">하의(PANTS)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="item.html">추천제품</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT</a>
+                    </li>
+                </ul>
+
+                <div class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="키워드 입력" aria-label="Search" style="width: 150px;">
+                    <button class="btn btn-outline-light search-icon" type="submit">검색</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="row detail-menu">
+            <h1 class="text-center mb-4 fw-bold">상의 네크라인 종류</h1>
+            <p class="text-center mb-2 text-muted">Types of top necklines</p>
+
+            <div class="col-6 col-md-3">
+                <a href="#crewneck" class="text-decoration-none text-dark d-block menu-item">
+                    <div class="menu-photo">
+                        <img src="images/Crewneck.jpg" alt="크루넥 긴소매 티셔츠 사진" width="300" height="300">
+                    </div>
+                    <p class="mb-0 fw-bold">크루넥</p>
+                </a>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <a href="#unec" class="text-decoration-none text-dark d-block menu-item">
+                    <div class="menu-photo">
+                        <img src="images/Uneck.jpg" alt="U넥 긴소매 티셔츠 사진" width="300" height="300">
+                    </div>
+                    <p class="mb-0 fw-bold">U넥</p>
+                </a>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <a href="#vneck" class="text-decoration-none text-dark d-block menu-item">
+                    <div class="menu-photo">
+                        <img src="images/Vneck.jpg" alt="V넥 긴소매 티셔츠 사진" width="300" height="300">
+                    </div>
+                    <p class="mb-0 fw-bold">V넥</p>
+                </a>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <a href="#turtleneck" class="text-decoration-none text-dark d-block menu-item">
+                    <div class="menu-photo">
+                        <img src="images/Turtleneck.jpg" alt="터틀넥 긴소매 티셔츠 사진" width="300" height="300">
+                    </div>
+                    <p class="mb-0 fw-bold">터틀넥</p>
+                </a>
+            </div>
+        </div>
+
+
+
+
+
+        <section id="crewneck" class="detail-section">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <div class="detail-photo position-relative">
+                        <img src="images/Crewneck.jpg" alt="크루넥 긴소매 티셔츠 사진" height="400" width="400">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <h3><b>크루넥 (Crew Neck)</b></h3>
+                    <div class="description-box">
+                        <p>둥근 원형으로, 목선에 딱 붙거나 살짝 여유 있게 떨어지는 디자인입니다.</p>
+                        <p>다른 말로는 라운드넥이라고도 합니다.</p>
+                        <p>쇄골과 목을 모두 가려주어 가장 캐주얼하고 안정적인 느낌을 줍니다.</p>
+                        <p>&nbsp; </p>
+
+                        <p><strong>키워드 :</strong> 가장 기본, 단정함</p>
+                        <p>&nbsp; </p>
+                        <p><strong>추천 체형 :</strong> 목이 긴 체형 (목선을 살짝 덮어 밸런스 조정)</p>
+                        <p>&nbsp; </p>
+                        <p><strong>코디 팁</strong></p>
+                        <p>- 후드티, 맨투맨 티셔츠 등 대부분의 캐주얼 상의에 사용되는 기본적인 넥라인입니다.</p>
+                        <p>- 단품으로 입거나 셔츠와 레이어드하기 좋습니다.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="unec" class="detail-section">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <div class="detail-photo position-relative">
+                        <img src="images/Uneck.jpg" alt="U넥 긴소매 티셔츠 사진" height="400" width="400">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <h3><b>U넥 (U-Neck)</b></h3>
+                    <div class="description-box">
+                        <p>라운드넥보다 더 깊고 넓게 파인 U자 형태의 네크라인입니다.</p>
+                        <p>쇄골이 살짝 드러나면서 목선을 시원하게 보여줍니다.</p>
+                        <p>&nbsp; </p>
+
+                        <p><strong>키워드 :</strong> 부드러운 곡선, 슬림 효과</p>
+                        <p>&nbsp; </p>
+                        <p><strong>추천 체형 :</strong> 목이 짧거나 얼굴이 둥근 체형 (시선을 아래로 유도해 목선이 길어 보이는 효과)</p>
+                        <p>&nbsp; </p>
+                        <p><strong>코디 팁</strong></p>
+                        <p>- 페미닌한 룩을 연출하거나, 목이 답답한 것을 싫어하는 분께 추천합니다.</p>
+                        <p>- 얇은 목걸이를 착용하면 쇄골 라인을 강조할 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    
+        <section id="vneck" class="detail-section">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <div class="detail-photo position-relative">
+                        <img src="images/Vneck.jpg" alt="V넥 긴소매 티셔츠 사진" height="400" width="400">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <h3><b>V넥 (V-Neck)</b></h3>
+                    <div class="description-box">
+                        <p>목 부분이 V자 형태로 파인 디자인입니다.</p>
+                        <p>시선을 세로로 길게 유도해 가장 슬림하고 날씬해 보이는 효과를 줍니다.</p>
+                        <p>&nbsp; </p>
+
+                        <p><strong>키워드 :</strong> 세로선 강조, 날씬함</p>
+                        <p>&nbsp; </p>
+                        <p><strong>추천 체형 :</strong> 상체가 통통하거나 목이 짧은 체형 (깊은 파임이 시각적으로 상체를 분할하여 길고 날씬하게 보임)</p>
+                        <p>&nbsp; </p>
+                        <p><strong>코디 팁</strong></p>
+                        <p>- 재킷, 블레이저 등 포멀한 아우터 안에 입어 깔끔한 오피스룩으로 활용하기 좋습니다.</p>
+                        <p>- 얇은 스카프와 매치해도 세련됩니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="turtleneck" class="detail-section">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <div class="detail-photo position-relative">
+                        <img src="images/Turtleneck.jpg" alt="터틀넥 긴소매 티셔츠 사진" height="400" width="400">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <h3><b>터틀넥 (Turtleneck)</b></h3>
+                    <div class="description-box">
+                        <p>목 전체를 감싸서 올라오는 네크라인입니다.</p>
+                        <p>보통 접어서 입으며, 뛰어난 보온성으로 가을/겨울철 필수 아이템입니다.</p>
+                        <p>&nbsp; </p>
+
+                        <p><strong>키워드 :</strong> 보온성, 클래식함</p>
+                        <p>&nbsp; </p>
+                        <p><strong>추천 체형 :</strong> 목이 길고 가는 체형 (목을 완전히 감싸 볼륨감을 부여)</p>
+                        <p>&nbsp; </p>
+                        <p><strong>코디 팁</strong></p>
+                        <p>- 단독으로 입거나, 아우터 안에 이너로 활용하여 클래식한 분위기를 연출하기 좋습니다.</p>
+                        <p>- 두꺼운 목걸이보다는 펜던트가 긴 목걸이로 포인트를 줄 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        
+        <div class="bottom-slogan">
+            <p class="text-muted">당신의 쇼핑을 더욱 편안하게</p>
+            <p class="text-muted">Comfort your shopping, Comfort your style</p>
+        </div>
+        
+    </div>
+
+    <a href="#top" class="top-btn" onclick="window.scrollTo(0, 0); return false;">TOP</a>
+
+    <script src="https://cdn.jsdelivrnt/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
